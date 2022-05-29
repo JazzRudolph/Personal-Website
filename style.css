@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,700&display=swap");
+
+* {
+  font-family: "Cormorant Garamond", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(1, 5, 25);
+}
+/* Nav menu */
+li,
+a,
+button {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(235, 200, 138);
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transform: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: rgb(255, 237, 209);
+}
+
+button {
+  padding: 9px 25px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background: rgb(160, 160, 160);
+}
+/* Banner Picture*/
+.banner {
+    color: chartreuse;
+}
+
+img.banner-picture {
+  width: -webkit-fill-available;
+  padding: 1%;
+}
+
+.banner h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* About section*/
+.about {
+  padding: 5%;
+  margin: 1%;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.about p {
+  font-size: 15px;
+}
+
+.about p img {
+  margin: 5% 2%;
+  padding: 8% 2%;
+  background: rgb(205, 205, 205);
+  float: left;
+}
+/*Hire Section*/
+.contact {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  display: block;
+  background: rgb(235, 200, 138);
+  color: rgb(255, 255, 255);
+}
