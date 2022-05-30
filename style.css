@@ -97,9 +97,7 @@ img.banner-picture {
   float: left;
 }
 /*Project Section*/
-.project{
-    margin: auto;
-}
+
 .project-item{
     width: 350px;
     height: 350px;
