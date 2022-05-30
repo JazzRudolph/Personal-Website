@@ -76,7 +76,7 @@ img.banner-picture {
 .about {
   padding: 5%;
   margin: 1%;
-  color: rgb(255, 255, 255);
+  color: rgb(235, 200, 138);;
   display: inline-block;
 }
 
@@ -87,7 +87,7 @@ img.banner-picture {
 }
 
 .about p {
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .about p img {
@@ -96,6 +96,24 @@ img.banner-picture {
   background: rgb(205, 205, 205);
   float: left;
 }
+/*Project Section*/
+.project{
+    margin: auto;
+}
+.project-item{
+    width: 350px;
+    height: 350px;
+    border: 5px solid rgb(144, 207, 223);
+    margin: 0 15px;
+    color: rgb(235, 200, 138);
+    display: inline-block;
+}
+
+
+
+
+
+
 /*Hire Section*/
 .contact {
   width: 100%;
