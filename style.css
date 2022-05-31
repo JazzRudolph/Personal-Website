@@ -106,14 +106,24 @@ img.banner-picture {
   float: left;
 }
 /*Project Section*/
-
+.container{
+  width: 100%;
+  height:  400px;
+  max-width: 1565px;
+  margin: 1%;
+  padding: 1%;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+}
 .project-item{
-    width: 350px;
-    height: 350px;
-    border: 5px solid rgb(144, 207, 223);
-    margin: 0 15px;
-    color: rgb(235, 200, 138);
-    display: inline-block;
+  width: 350px;
+  height: 350px;
+  border: 5px solid rgb(144, 207, 223);
+  margin: 2%;
+  color: rgb(235, 200, 138);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
