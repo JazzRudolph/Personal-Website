@@ -72,24 +72,56 @@
             <span class="project-item">project3</span>
         </div>
       </section>
-      <section class="hire">
-        <h3>Hire Me</h3>
-        <form class="contact">
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Full Name" />
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Email" />
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" placeholder="Phone Number" />
-          <lable for="subject"></lable>
-          <textarea id="subject" name="subject" placeholder="Leave A Message"></textarea>
-          <button><input type="submit" value="Submit">Submit</button>
-        </form>
+      /*contat form*/
+      <section>
+        <div id="contact-form">
+          <div>
+            <h1>Let me build your website!</h1> 
+            <h4>Have a question? Want to set up a consultation? Just want to get in touch? I'm here to get the job done!</h4> 
+          </div>
+            <p id="failure">Sorry I'm having trouble getting your message, try again!</p>  
+            <p id="success">I recieved your message. Thank you I will be in touch soon!</p>
+        
+               <form method="post" action="/">
+              <div>
+                  <label for="name">
+                    <span class="required">Name: *</span> 
+                    <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+                  </label> 
+              </div>
+              <div>
+                  <label for="email">
+                    <span class="required">Email: *</span>
+                    <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+                  </label>  
+              </div>
+              <div>             
+                  <label for="subject">
+                  <span>Subject: </span>
+                    <select id="subject" name="subject" tabindex="4">   
+                       <option value="hello">Question?</option>
+                       <option value="quote">Setup A Consultation!</option>  
+                       <option value="general">Other?! </option>
+                    </select>
+                  </label>
+              </div>
+              <div>             
+                  <label for="message">
+                    <span class="required">Message: *</span> 
+                    <textarea id="message" name="message" placeholder="Leave Message Here." tabindex="5" required="required"></textarea> 
+                  </label>  
+              </div>
+              <div>              
+                  <button name="submit" type="submit" id="submit" >SEND</button> 
+              </div>
+               </form>
+        
+          </div>
       </section>
     </main>
 
-    <footer class="social">
-      <div>
+    <footer>
+      <div class="social">
         <ul>
           <li><a href="social">Social</a></li>
           <li><a href="social">Social</a></li>
