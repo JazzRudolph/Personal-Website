@@ -15,6 +15,7 @@ a {
   font-size: 20px;
   color: rgb(235, 200, 138);
   text-decoration: none;
+  list-style: none;
 }
 
 button {
@@ -35,6 +36,9 @@ header {
 }
 .logo {
   cursor: pointer;
+  width: 100px;
+  height: 100px;
+
 }
 
 .nav-links {
@@ -100,9 +104,8 @@ img.banner-picture {
 }
 
 .about p img {
-  margin: 5% 2%;
-  padding: 8% 2%;
-  background: rgb(205, 205, 205);
+  width: 400px;
+  padding: 1% 2%;
   float: left;
 }
 /*Project Section*/
@@ -206,6 +209,11 @@ form textarea{
 
   }
 
-footer ul{
-
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  color: rgb(235, 200, 138);
 }
+
