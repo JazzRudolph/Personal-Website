@@ -65,69 +65,65 @@
           and management. I am ready for long-time cooperation.
         </p>
       </section>
-      <section >
+      <section>
         <div>
-            <span class="project-item">project1</span>
-            <span class="project-item">project2</span>
-            <span class="project-item">project3</span>
-            <span class="project-item">project4</span>
+          <span class="project-item">project1</span>
+          <span class="project-item">project2</span>
+          <span class="project-item">project3</span>
+          <span class="project-item">project4</span>
         </div>
       </section>
       /*contat form*/
       <section>
-        <div id="contact-form">
-          <div>
-            <h1>Let me build your website!</h1> 
-            <h4>Have a question? Want to set up a consultation? Just want to get in touch? I'm here to get the job done!</h4> 
-          </div>
-            <p id="failure">Sorry I'm having trouble getting your message, try again!</p>  
-            <p id="success">I recieved your message. Thank you I will be in touch soon!</p>
-        
-               <form method="post" action="/">
-              <div>
-                  <label for="name">
-                    <span class="required">Name: *</span> 
-                    <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
-                  </label> 
-              </div>
-              <div>
-                  <label for="email">
-                    <span class="required">Email: *</span>
-                    <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
-                  </label>  
-              </div>
-              <div>             
-                  <label for="subject">
-                  <span>Subject: </span>
-                    <select id="subject" name="subject" tabindex="4">   
-                       <option value="hello">Question?</option>
-                       <option value="quote">Setup A Consultation!</option>  
-                       <option value="general">Other?! </option>
-                    </select>
-                  </label>
-              </div>
-              <div>             
-                  <label for="message">
-                    <span class="required">Message: *</span> 
-                    <textarea id="message" name="message" placeholder="Leave Message Here." tabindex="5" required="required"></textarea> 
-                  </label>  
-              </div>
-              <div>              
-                  <button name="submit" type="submit" id="submit" >SEND</button> 
-              </div>
-               </form>
-        
-          </div>
+        <div class="form">
+            <h1>Let me build your website!</h1>
+            <h4>
+              Have a question? Want to set up a consultation? Just want to get
+              in touch? I'm here to get the job done!
+            </h4>
+          <form class="form-item">
+            <label for="name">
+              <span>Full Name</span>
+              <input type="text" name="name" />
+            </label>
+            <label for="email">
+              <span>Email   </span>
+              <input type="email" name="email" />
+            </label>
+            <label for="phone">
+              <span>Phone Number</span>
+              <input type="tel" name="phone number" />
+            </label>
+            <label for="subject">
+              <span>Subject</span>
+              <select class="subject" name="subject">
+                <option value="quote">Setup A Consultation</option>
+                <option value="question">I Have Questions</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label for="message">
+              <span>Message*</span>
+              <textarea
+                class="message"
+                name="message"
+              ></textarea>
+            </label>
+            <button>SEND</button> 
+          </form>
+        </div>     
       </section>
     </main>
 
-    <footer>
+    <footer id="footer">
+      <img class="logo" src="#" alt="logo" />
       <div class="social">
         <ul>
           <li><a href="social">Social</a></li>
           <li><a href="social">Social</a></li>
           <li><a href="social">Social</a></li>
         </ul>
+        &copy;
       </div>
     </footer>
   </body>
