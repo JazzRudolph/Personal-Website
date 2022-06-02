@@ -36,7 +36,7 @@ header {
   padding: 30px 10%;
 }
 
-h1, 
+h1,
 h4 {
   color: rgb(235, 200, 138);
   text-align: center;
@@ -113,9 +113,9 @@ img.banner-picture {
 }
 
 /*Project Section*/
-.container{
+.container {
   width: 100%;
-  height:  400px;
+  height: 400px;
   max-width: 1565px;
   margin: 1%;
   padding: 1%;
@@ -123,7 +123,7 @@ img.banner-picture {
   justify-content: center;
 }
 
-.project-item{
+.project-item {
   width: 350px;
   height: 350px;
   margin: 2%;
@@ -133,7 +133,7 @@ img.banner-picture {
 }
 
 /*Hire Section*/
-.form{
+.form {
   width: 600px;
   height: 675px;
   margin: auto;
@@ -143,7 +143,7 @@ img.banner-picture {
   font-size: 22px;
 }
 
-form label{
+form label {
   margin: auto;
   padding: 9px;
   color: rgb(235, 200, 138);
@@ -154,7 +154,7 @@ form label{
   font-weight: 700;
 }
 
-form button{
+form button {
   width: 100%;
   border: 5px solid rgb(144, 207, 223);
   color: rgb(1, 5, 25);
@@ -164,16 +164,16 @@ form button{
   align-items: center;
 }
 
-form input{
+form input {
   width: 100%;
   height: 50px;
   font-size: 15px;
   font-weight: 700;
   border: 5px solid rgb(144, 207, 223);
   color: rgb(235, 200, 138);
-  }
+}
 
-form select{
+form select {
   width: 100%;
   height: 50px;
   border: 5px solid rgb(144, 207, 223);
@@ -181,18 +181,17 @@ form select{
   font-size: 20px;
 }
 
-form textarea{
+form textarea {
   width: 450px;
   height: 205px;
   border: 5px solid rgb(144, 207, 223);
   color: rgb(235, 200, 138);
-  }
+}
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
   color: rgb(235, 200, 138);
 }
-
