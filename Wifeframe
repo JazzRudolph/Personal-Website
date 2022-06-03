@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Second Website</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="#" alt="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </nav>
+      <button class="button">
+        Button
+      </button>
+    </header>
+
+    <main>
+      <section class="banner">
+        <h4>Header</h4>
+        <img class="banner-picture" src="#" alt="banner picture" />
+      </section>
+      <section class="about">
+        <h1>Header</h1>
+        <p>
+          <img class="me-pic" src="#" alt="personal picture" />
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+          ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+          ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+          qui dolorem eum fugiat quo voluptas nulla pariatur?""Sed ut
+          perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+          inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+          voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+          quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+          eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+          voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+          ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+          consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
+          velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+          fugiat quo voluptas nulla pariatur?"
+        </p>
+      </section>
+      <section>
+        <h1>Header</h1>
+        <div>
+          <span class="project-item">
+            <img class="me-pic" src="#" alt="Website picture"
+          /></span>
+          <span class="project-item">
+            <img class="me-pic" src="#" alt="Website picture"
+          /></span>
+          <span class="project-item">
+            <img class="me-pic" src="#" alt="Website picture"
+          /></span>
+          <span class="project-item">
+            <img class="me-pic" src="#" alt="Website picture"
+          /></span>
+        </div>
+      </section>
+      /*contat form*/
+      <section>
+        <div class="form">
+          <h1>Form Header</h1>
+          <h4>
+            Sub Header
+          </h4>
+          <form class="form-item">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <button>Button</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img class="logo" src="#" alt="logo" />
+      Copyright
+      <div>
+        <ul class="social">
+          <li class="social">
+            <a href="#"><i class="">Social</i></a>
+          </li>
+          <li class="social">
+            <a href="#"><i class="#">Social</i></a>
+          </li>
+          <li class="social">
+            <a href="#"><i class="#">Social</i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
+
+/*Styles sheet*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(167, 167, 167);
+  }
+  
+  /* Nav menu */
+  li,
+  a {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  button {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  
+  h1,
+  h4 {
+    color: rgb(19, 19, 19);
+    text-align: center;
+  }
+  
+  .logo {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav-links li a {
+    transform: all 0.3s ease 0s;
+  }
+  
+  .nav-links li a:hover {
+    color: rgb(211, 211, 211);
+  }
+  
+  button {
+    padding: 9px 25px;
+    background: rgba(112, 112, 112, 0.9);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button:hover {
+    background: rgb(199, 199, 199);
+  }
+  
+  /* Banner Picture*/
+  .banner {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background: rgb(205, 205, 205);
+    color: rgb(0, 0, 0);
+  }
+  
+  img.banner-picture {
+    width: -webkit-fill-available;
+    padding: 1%;
+  }
+  
+  /* About section*/
+  .about {
+    padding: 5%;
+    margin: 1%;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+  }
+  
+  .about h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .about p {
+    font-size: 24px;
+  }
+  
+  .about p img {
+    width: 200px;
+    height: 200px;
+    background: rgb(99, 99, 99);
+    padding: 1% 2%;
+    float: left;
+  }
+  
+  /*Project Section*/
+  .container {
+    width: 100%;
+    height: 400px;
+    max-width: 1565px;
+    margin: 1%;
+    padding: 1%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+  }
+  
+  .project-item {
+    width: 350px;
+    height: 350px;
+    background: rgb(99, 99, 99);
+    margin: 2%;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  /*Hire Section*/
+  .form {
+    width: 600px;
+    height: 675px;
+    margin: auto;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(161, 161, 161);
+    font-size: 22px;
+  }
+  
+  form button {
+    width: 100%;
+    border: 5px solid rgb(143, 143, 143);
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: rgb(0, 0, 0);
+  }
+  
