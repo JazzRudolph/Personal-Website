@@ -1,6 +1,8 @@
 # Personal-Website
 Jazz Rudolph
 
+https://jazzrudolph.github.io/Personal-Website/
+
 My project is a simple personal website that I will display my future projects on it, 
 so my future employeer and clients can see my skills.
 
